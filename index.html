@@ -4,25 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ramen Rating App</title>
-    <link rel="stylesheet" href="./styles.css">
-    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Ramen-rating</h1>
-    <img src="/images/gyukotsu.jpg" alt="gyukotsu" title="gyukotsu">
-    <img src="/images/shoyu.jpg" alt="shoyu" title="shoyu">
-    <img src="./images/kojiro.jpg" alt="kojiro" title="kojiro">
-    <img src="./images/naruto.jpg" alt="naruto" title="naruto">
-    <img src="./images/nirvana.jpg" alt="nirvana" title="nirvana">
-    <img src="./Meat & baked potatoes.jpeg" alt="meat & baked potatoes" title="Meat & roasted potatoes">
-    <img src="./pilau & roasted chicken.jpeg" alt="pilau & roasted chicken" title="Pilau & roasted chicken ">
-    <nav>Ramen Rater</nav>
-<div id="ramen-menu">
-
-</div>
-<div id="ramen-detail">
+    <h1>Ramen Rating App</h1>
     
-</div>
+    <div id="ramen-menu"></div>
+    <div id="ramen-detail">
+        <img class="detail-image" src="" alt="Ramen image">
+        <h2 class="name"></h2>
+        <h3 class="restaurant"></h3>
+        <p class="rating"></p>
+        <p class="comment"></p>
+    </div>
     <form id="new-ramen">
         <h2>Add New Ramen</h2>
         <input type="text" name="name" placeholder="Ramen Name" required>
@@ -32,6 +26,6 @@
         <input type="text" name="comment" placeholder="Comment">
         <button type="submit">Add Ramen</button>
     </form>
-    <script src="script.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
