@@ -41,8 +41,25 @@ button {
     color: white;
     border: none;
     cursor: pointer;
+    margin: 5px;
 }
 
 button:hover {
     background-color: #45a049;
+}
+
+#edit-btn, #delete-btn {
+    background-color: #008CBA;
+}
+
+#delete-btn {
+    background-color: #f44336;
+}
+
+#edit-btn:hover, #delete-btn:hover {
+    background-color: #007B9A;
+}
+
+#delete-btn:hover {
+    background-color: #da190b;
 }
